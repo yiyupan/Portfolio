@@ -55,10 +55,6 @@ h1 {
     height: auto;
 }
 
-.center {
-    justify-content: center;
-}
-
 .container {
     width: 100%;
     display: flex;
@@ -83,6 +79,11 @@ h1 {
     flex-direction: column;
     width: 80%;
     align-items: flex-end; 
+}
+
+.box-center {
+    justify-content: center;
+    width: 100%;
 }
 
 .box-title {
